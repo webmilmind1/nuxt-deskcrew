@@ -1,5 +1,10 @@
 # @deskcrew/nuxt
 
+[![npm](https://img.shields.io/npm/v/@deskcrew/nuxt?color=4f46e5&label=npm)](https://www.npmjs.com/package/@deskcrew/nuxt)
+[![license](https://img.shields.io/npm/l/@deskcrew/nuxt?color=4f46e5)](./LICENSE)
+
+<a href="https://www.producthunt.com/products/deskcrew?utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-deskcrew"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1197215&theme=dark" alt="DeskCrew on Product Hunt" width="250" height="54" /></a>
+
 Add the [DeskCrew](https://deskcrew.io) support widget (live chat, instant
 answers from your help articles and a help center) to every page of your Nuxt
 app.
