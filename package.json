@@ -1,0 +1,60 @@
+{
+  "name": "@deskcrew/nuxt",
+  "version": "1.0.1",
+  "description": "Nuxt module that adds the DeskCrew support widget (live chat, instant answers and a help center) to every page.",
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "deskcrew",
+    "support",
+    "chat",
+    "widget",
+    "helpdesk",
+    "live-chat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmilmind1/nuxt-deskcrew.git"
+  },
+  "homepage": "https://deskcrew.io/integrations/nuxt",
+  "bugs": {
+    "url": "https://github.com/webmilmind1/nuxt-deskcrew/issues",
+    "email": "hello@deskcrew.io"
+  },
+  "author": "DeskCrew <hello@deskcrew.io> (https://deskcrew.io)",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "build-tag.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/schema": "^3.0.0",
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
