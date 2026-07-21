@@ -7,7 +7,9 @@
 
 **Add AI live chat, a help center and ticketing to any Nuxt app in about two minutes, free, with no credit card.** `@deskcrew/nuxt` is the official [DeskCrew](https://deskcrew.io) module: one entry in `nuxt.config.ts` puts a support widget on every page, answers visitor questions from your own help articles, and turns anything it cannot answer into a real support ticket.
 
-![The DeskCrew AI support widget open on a Nuxt documentation site, answering a visitor question about server-side rendering](https://deskcrew.b-cdn.net/plugins/nuxt-hero.png)
+[![The DeskCrew AI support widget opening on a Nuxt documentation site and answering a visitor question about server-side rendering](https://deskcrew.b-cdn.net/plugins/nuxt-demo.gif)](https://deskcrew.b-cdn.net/plugins/nuxt-demo.mp4)
+
+<sub>The widget running on a Nuxt site. <a href="https://deskcrew.b-cdn.net/plugins/nuxt-demo.mp4">Watch the full quality video</a>.</sub>
 
 ## Install
 

@@ -1,6 +1,6 @@
 {
   "name": "@deskcrew/nuxt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nuxt module that adds the DeskCrew support widget (live chat, instant answers and a help center) to every page.",
   "keywords": [
     "nuxt",
