@@ -1,16 +1,24 @@
 {
   "name": "@deskcrew/nuxt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nuxt module that adds the DeskCrew support widget (live chat, instant answers and a help center) to every page.",
   "keywords": [
     "nuxt",
     "nuxt-module",
-    "deskcrew",
+    "nuxt3",
     "support",
-    "chat",
-    "widget",
     "helpdesk",
-    "live-chat"
+    "help desk",
+    "customer support",
+    "live chat",
+    "chat widget",
+    "support widget",
+    "ai chat",
+    "ai support",
+    "ticketing",
+    "support tickets",
+    "knowledge base",
+    "deskcrew"
   ],
   "repository": {
     "type": "git",
