@@ -50,13 +50,15 @@ export function buildAttrs(options) {
   const board = typeof opts.board === 'string' ? opts.board.trim() : ''
   if (board) {
     if (BOARD_RE.test(board)) attrs.push(['data-board', board])
-    else warnings.push(`[deskcrew] board "${board}" is not a valid slug (a-z, 0-9, dashes). Ignored.`)
+    else
+      warnings.push(`[deskcrew] board "${board}" is not a valid slug (a-z, 0-9, dashes). Ignored.`)
   }
 
   const color = typeof opts.color === 'string' ? opts.color.trim() : ''
   if (color) {
     if (COLOR_RE.test(color)) attrs.push(['data-color', color])
-    else warnings.push(`[deskcrew] color "${color}" is not a 6-digit hex value like #4f46e5. Ignored.`)
+    else
+      warnings.push(`[deskcrew] color "${color}" is not a 6-digit hex value like #4f46e5. Ignored.`)
   }
 
   const position = typeof opts.position === 'string' ? opts.position.trim() : ''
